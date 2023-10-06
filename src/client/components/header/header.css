@@ -1,0 +1,35 @@
+/* Default heading styles */
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.header {
+  container: headerWrapper / inline-size;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+@container headerWrapper (min-width: 700px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
