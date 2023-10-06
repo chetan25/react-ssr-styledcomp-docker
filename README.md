@@ -1,7 +1,7 @@
 ---
 title: Simple SSR React App + Styled Components + Docker.
 excerpt: Building a simple SSR react app to use styled components and docker
-Tools: ['SSR', 'Express', 'React', 'Styled Components, 'ReactDOM' 'Webpack', 'Docker']
+Tools: ['SSR', 'Express', 'React', 'Styled Components', 'ReactDOM' 'Webpack', 'Docker']
 ---
 
 # Simple SSR React App + Styled Components + Docker
